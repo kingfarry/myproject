@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    list-style: none;
+    text-decoration: none;
+}
+.topbar{
+    margin-bottom: 20px;
+    position:fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 9%;
+    background: black;
+    
+}
+
+body{
+    background:linear-gradient(245.59deg, #a59e9e -60%,#0b0c0b 75.52%);
+} 
+
+.header{
+    color:brown;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header b{
+    color:rgb(252, 249, 249);
+}
+
+ .ul-lists{
+    display: flex;
+    list-style: none;
+}
+
+.ul-lists li{
+    padding:20px;
+    font-weight:700;
+    font-size: 20px;
+    color: lightgrey;
+}
+
+.ul-lists a{
+    color: white;
+    margin-left:60px;
+    font-size:15px;
+    font-weight: 600;
+    border-bottom:2px solid transparent;
+    transition:all .55s ease;
+    text-decoration: none;
+}
+
+.ul-lists a:hover{
+    border-bottom:2px solid white;
+}
+
+
+
+.hero-text{
+    align-items: center;
+    justify-content: center;
+    margin-right: 400px; 
+    margin-top: -80px;
+    padding:100px 100px;
+    text-align: center;
+    color:white ;
+    
+}
+
+.hero-img{
+    display:flex;
+    margin-top: 120px;
+}
+.hero-text h1{
+    color:brown;
+}
+
+.hero-text h1 b{
+    color:rgb(247, 243, 243);
+}
+
+.hero-text h2{
+    margin:0;
+    padding:20px 0;
+    font-weight: 900;
+    font-size: 50px;
+    border-radius: 50px;
+    font-family:'roboto';
+}
+
+.hero-text p{
+    color:rgb(250, 250, 250);
+}
+
+.hero-text a{
+    color:black;
+    background:White;
+    height:35px;
+    width:110px;
+    border:1px solid transparent;
+    display: inline-block;
+    padding:10px 20px;
+    margin-top: 20px;
+    line-height: 1.4;
+    font-size:14px;
+    font-weight:500;
+    border-radius:30px;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition:all .55s ease;
+}
+
+.hero-text a:hover{
+    background:transparent;
+    border:1px solid white;
+    transform:translate(8px);
+    color:white;
+}
+
+
+
+.navbutton{
+    background-color:brown;
+    color:rgb(247, 241, 241);
+    height:35px;
+    width:110px;
+    border:none;
+    border-radius:3px;
+    margin-top: 20px; 
+} 
+
+button:hover{
+    color:black;
+    background-color: #642b20;
+}
+
+.featured{
+    background-color:#0a0a0a ;
+    height: 200px;
+    /* margin-bottom:70px; */
+}
+.feat{
+    color: white;
+    text-align: center;
+}
+
+.feat-images{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.feat-images img{
+    height:40px;
+    width: 90px;
+    margin:0px 0px 20px 0;
+}
